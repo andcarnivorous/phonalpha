@@ -1,0 +1,29 @@
+
+Consonants
+
+|--------------+------+------+------+------+-------+------+------+-----+----+-----+--------|
+| \            | Bila | bial | Alve | olar | Retro | flex | Pala | tal | Ve | lar | Uvular |
+| Plosive      |      |      |      |      | [[elisp:(PhonAlph-insert-plo-retro-unv)][ʈ]]     | [[elisp:(PhonAlph-insert-plo-retro-voice)][ɖ]]    |      | [[elisp:(PhonAlph-insert-plos-pala-voice)][ɟ]]   |    |     | [[elisp:(PhonAlph-insert-plos-uvu-voice)][ɢ]]      |
+| Nasal        |      |      |      |      |       | [[elisp:(PhonAlph-insert-nas-retro-voice)][ɳ]]    |      | [[elisp:(PhonAlph-insert-nas-pala-voice)][ɲ]]   |    |     | [[elisp:(PhonAlph-insert-nas-uvu-voice)][ɴ]]      |
+| Trill        |      | [[elisp:(PhonAlph-insert-bilabial-trill-voice)][ʙ]]    |      |      |       |      |      |     |    |     | [[elisp:(PhonAlph-insert-nas-uvu-voice)][ʀ]]      |
+| Tap          |      |      |      |      |       | [[elisp:(PhonAlph-insert-tap-retro-voice)][ɽ]]    |      |     |    |     |        |
+| Fricative    | [[elisp:(PhonAlph-insert-bilabial-fric-unv)][ɸ]]    | [[elisp:(PhonAlph-insert-bilabial-fric-voice)][β]]    |      |      | [[elisp:(PhonAlph-insert-fric-retro-unv)][ʂ]]     | [[elisp:(PhonAlph-insert-fric-retro-voice)][ʐ]]    | [[elisp:(PhonAlph-insert-fric-pala-unv)][ç]]    | [[elisp:(PhonAlph-insert-fric-pala-voice)][ʝ]]   |    | [[elisp:(PhonAlph-insert-fric-velar-voice)][ɣ]]   | [[elisp:(PhonAlph-insert-fric-uvu-voice)][ʁ]]      |
+| Lat. Fric.   |      |      | [[elisp:(PhonAlph-insert-lafric-alv-unv)][ɬ]]    | [[elisp:(PhonAlph-insert-latfric-alv-voice)][ɮ]]    |       |      |      |     |    |     |        |
+| Approximant  |      |      |      | [[elisp:(PhonAlph-insert-approx-alv-voice)][ɹ]]    |       | [[elisp:(PhonAlph-insert-approx-retro-voice)][ɻ]]    |      |     | [[elisp:(PhonAlph-insert-approx-velar-unv)][ɰ]]  |     |        |
+| Lat. Approx. |      |      |      |      |       | [[elisp:(PhonAlph-insert-latappr-retro-voice)][ɭ]]    | [[(elisp:(PhonAlph-insert-latapprox-pala-unv)][ʎ]]    |     | [[elisp:(PhonAlph-insert-latapprox-velar-unv)][ʟ]]  |     |        |
+|--------------+------+------+------+------+-------+------+------+-----+----+-----+--------|
+
+Vowels
+
+| Front |   |   | Central |   |   | Back |   |      |
+|-------+---+---+---------+---+---+------+---+------|
+|       |   |   |         |   |   |      |   |      |
+| i     | y |   | [[elisp:(PhonAlph-insert-central-high-unrouded)][ɨ]]       | [[elisp:(PhonAlph-insert-central-high-rounded)][ʉ]] |   | ɯ    | u | High |
+|       |   |   |         |   |   |      |   |      |
+| e     | [[elisp:(PhonAlph-insert-front-close-mid-rounded)][ø]] |   | [[elisp:(PhonAlph-insert-central-close-mid-unrounded)][ɘ]]       | [[elisp:(PhonAlph-insert-central-close-mid-unrounded)][ɵ]] |   |      |   |      |
+|       |   |   |         | [[elisp:(PhonAlph-insert-unrounded-mid-switch)][ə]] |   | ɤ    | o | Mid  |
+| [[elisp:(PhonAlph-insert-mid-front-switch)][ɛ]]     | [[elisp:(PhonAlph-insert-front-open-mid-rounded)][œ]] |   | [[elisp:(PhonAlph-insert-central-open-mid-rounded)][ɜ]]       | [[elisp:(PhonAlph-insert--central-open-mid-unrounded)][ɞ]] |   |      |   |      |
+|       |   |   |         | ɐ |   | [[elisp:(PhonAlph-insert-open-mid-back-switch)][ʌ]]    | [[elisp:(PhonAlph-insert-open-mid-back-switch2)][ɔ]] |      |
+| [[elisp:(PhonAlph-insert-switch-ae)][æ]]     |   |   |         |   |   |      |   |      |
+| a     | [[elisp:(PhonAlph-insert-front-low-rounded)][ɶ]] |   |         |   |   | [[elisp:PhonAlph-insert-open-back-unrounded-switch][ɑ]]    | ɒ | Low  |
+|-------+---+---+---------+---+---+------+---+------|
