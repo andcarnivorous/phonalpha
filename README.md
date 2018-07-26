@@ -16,6 +16,6 @@ You can access the ipa-chart with `M-x` `phonalpha-ipa-chart`
 
 #### TODO 
 
--   [ ] 
--   [ ] 
--   [ ]
+-   [ ] improve relative path
+-   [ ] add diacritics
+
