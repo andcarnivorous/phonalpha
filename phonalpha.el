@@ -8,7 +8,7 @@
   "Open the ‘ipa-chart’ org file in a new read-only-buffer."
   (interactive)
   (pop-to-buffer (find-file-noselect
-		  (concat user-emacs-directory "PhonAlpha/ipa_chart.org"))
+		  (concat user-emacs-directory "phonalpha/ipa_chart.org"))
 		 (funcall 'phonalpha-mode))
   (setq buffer-read-only t))
   
