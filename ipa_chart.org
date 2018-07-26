@@ -3,6 +3,7 @@ Consonants
 
 |--------------+------+------+------+------+-------+------+------+-----+----+-----+--------|
 | \            | Bila | bial | Alve | olar | Retro | flex | Pala | tal | Ve | lar | Uvular |
+|--------------+------+------+------+------+-------+------+------+-----+----+-----+--------|
 | Plosive      |      |      |      |      | [[elisp:(PhonAlph-insert-plo-retro-unv)][ʈ]]     | [[elisp:(PhonAlph-insert-plo-retro-voice)][ɖ]]    |      | [[elisp:(PhonAlph-insert-plos-pala-voice)][ɟ]]   |    |     | [[elisp:(PhonAlph-insert-plos-uvu-voice)][ɢ]]      |
 | Nasal        |      |      |      |      |       | [[elisp:(PhonAlph-insert-nas-retro-voice)][ɳ]]    |      | [[elisp:(PhonAlph-insert-nas-pala-voice)][ɲ]]   |    |     | [[elisp:(PhonAlph-insert-nas-uvu-voice)][ɴ]]      |
 | Trill        |      | [[elisp:(PhonAlph-insert-bilabial-trill-voice)][ʙ]]    |      |      |       |      |      |     |    |     | [[elisp:(PhonAlph-insert-nas-uvu-voice)][ʀ]]      |

@@ -5,7 +5,7 @@
 ;; IPA INTERACTIVE CHART
 
 (defun phonalpha-ipa-chart ()
-  "Open the ‘ipa-chart’ org file in a new buffer in read-only-mode'."
+  "Open the ‘ipa-chart’ org file in a new read-only-buffer."
   (interactive)
   (pop-to-buffer (find-file-noselect
 		  (concat user-emacs-directory "PhonAlpha/ipa_chart.org"))
